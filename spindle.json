@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "Summaryception",
+  "identifier": "summaryception",
+  "author": "Ryah",
+  "description": "Layered recursive chat memory for Lumiverse. Non-destructive history compression, independent summarizer connections, and editable memory layers.",
+  "permissions": [
+    "generation",
+    "interceptor",
+    "chat_mutation",
+    "chats",
+    "personas",
+    "ui_panels"
+  ],
+  "entry_backend": "dist/backend.js",
+  "entry_frontend": "dist/frontend.js",
+  "minimum_lumiverse_version": "1.2.4"
+}

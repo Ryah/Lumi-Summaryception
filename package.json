@@ -1,0 +1,24 @@
+{
+  "name": "lumiverse-summaryception",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "author": "Ryah",
+  "scripts": {
+    "build": "bun run scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test test",
+    "verify": "bun run typecheck && bun run test && bun run build",
+    "package": "bun run scripts/package.mjs"
+  },
+  "dependencies": {
+    "@noble/hashes": "2.0.1",
+    "valibot": "1.1.0"
+  },
+  "devDependencies": {
+    "fflate": "0.8.2",
+    "lumiverse-spindle-types": "0.6.40",
+    "typescript": "7.0.2"
+  }
+}
