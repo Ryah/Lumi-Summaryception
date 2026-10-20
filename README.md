@@ -25,6 +25,9 @@ This is a **Lumiverse extension**, not a SillyTavern extension. The original Sil
 
 ## Installation
 
+### Inside Lumiverse
+1. Paste this URL into Lumiverse extension install: `https://github.com/Ryah/Lumi-Summaryception`
+
 ### From a release ZIP
 
 1. Open this repository's **Releases** page and download the attached `Summaryception-<version>.zip`, when available. Choose the extension asset, **not** GitHub's automatically generated “Source code” ZIP.
