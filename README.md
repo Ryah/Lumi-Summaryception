@@ -249,27 +249,6 @@ Summaryception can use different backends for summarization, independent of your
 
 ---
 
-## 📥 Installation
-
-### Requirements
-
-- **SillyTavern 1.16.0+** (release or staging). Older versions use an incompatible `generateRaw` signature and will not work correctly.
-
-### From SillyTavern UI
-1. Open **Extensions** → **Install Extension**
-2. Paste: `https://github.com/Lodactio/Extension-Summaryception`
-3. Click Install
-4. Find **🧠 Summaryception** in Extensions settings
-
-### Manual
-```bash
-cd SillyTavern/data/default-user/extensions/third-party/
-git clone https://github.com/Lodactio/Extension-Summaryception
-```
-Restart SillyTavern and enable the extension.
-
----
-
 ## 🧠 Why This Works Better
 
 | | Traditional Summary | Summaryception |
@@ -284,7 +263,7 @@ Restart SillyTavern and enable the extension.
 
 ---
 
-## Installation
+## 📥 Installation
 
 ### Inside Lumiverse
 1. Paste this URL into Lumiverse extension install: `https://github.com/Ryah/Lumi-Summaryception`
